@@ -1,0 +1,75 @@
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    right: -100px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+#mySidenav a:hover {
+    right: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+/* The about link: 20px from the top with a green background */
+#home {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+
+/* The about link: 80px from the top with a green background */
+#about {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+  }
+
+/* The about link: 140px from the top with a green background */
+#contact {
+    top: 140px;
+    background-color: #555 /* Light Black */
+  }
+
+h1{
+    padding-right: 40px;
+  }
+
+body{
+    background-image: url(https://img.freepik.com/free-photo/contact-us_36325-2135.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+/* Mobile number font */
+#mobile{
+    font-weight:bolder;
+    padding-left:10px;
+  }
+   
+/*Gmail font */
+#gmail{
+    font-weight:bolder;
+    padding-left:10px;
+  }
+
+/* Insta Id Font */
+#insta{
+    font-weight:bolder;
+    padding-left:10px;
+  }
+
+/*Address Font  */
+#location{
+    font-weight:bolder;
+    padding-left:10px;
+  }

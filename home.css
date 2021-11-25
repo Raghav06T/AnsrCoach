@@ -1,0 +1,122 @@
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    right: -100px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    right: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #home {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+
+  /* The about link: 80px from the top with a green background */
+  #about {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+  }
+  
+  /* The about link: 140px from the top with a green background */
+  #contact {
+    top: 140px;
+    background-color: #555 /* Light Black */
+  }
+  #name{
+    padding-left:30px;
+  }
+
+  body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWyw_f-BUslklC3of5LEjNzrX6LbmHDfIkGQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size:cover;
+  } 
+  
+  /* Quote style */
+  h2{
+    text-align: center;
+    font-size: bold;
+    color: white;
+    font-style: italic;
+    font-weight:900;
+  } 
+
+  /* Author */
+  h5{
+    text-align: center;
+    font-size: bold;
+    color: white;
+    font-style: italic;
+    font-weight:900;
+    padding-left: 340px;
+  }
+
+  /* Information */
+  h3{
+    text-align: center;
+    font-size: bold;
+    color: white;
+    font-style: italic;
+    font-weight: 1200px;
+    padding:20px;
+  }
+
+  /* For navigation purpose */
+  a{
+    text-decoration: none;
+    color:rgb(144, 204, 47);
+    padding-left: 650px;
+  }
+
+  h1{
+    color: rgb(32, 125, 148);
+  }
+
+  /* Donate button */
+  .button {
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 5.5px 11px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+  .button:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+  }
+  .button:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px; 
+  }
